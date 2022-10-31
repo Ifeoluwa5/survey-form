@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="survey.css">
+  
+<h1 id="title">My survey form</h1>
+<p id="description">Welcome to my portfolio, tell me what you think i can do to make your experiemce better</p>
+<div class="grace"><strong>Welcome!</strong></div>
+<form id="survey-form">
+<br><br>
+<h2>Which description fits you better?</h2>
+<select id="dropdown">
+<option>This is my first time on a coding website</option><br>
+<option>I am a newbie to coding</option>
+<option>I am an advanced learner</option>
+<option>I am just a beginner</option>
+<option>Though i am a beginner, i will become better over time.</option><br><br>
+</select>
+<label id="name-label">
+<br>Name <input id="name" type="text" placeholder="Enter your name" required></label><br><br>
+<label id="email-label">Email <input id="email" type="email" placeholder="Fill in a valid gmail" required></label><br><br>
+<label id="number-label">Number <input id="number" type="number" min="0" max="50" placeholder="Enter a positive number" required></label>
+<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<h3>Choose one out of the two:</h3><input type="radio" name="final" value="Yes">I know how to code.
+<input type="radio" name="final" value="No">I am almost tired of coding.<br><br>
+<h3>How many hours do you code forfor in a day? </h3><br> <input type="checkbox" name="time" value="Six">Six hours
+<input name="time" type="checkbox" value="Ten">Ten hours
+<input type="checkbox" value="One" name="time">One hour<br>
+<br>
+<textarea>Additional comment</textarea><br><br>
+<button id="submit" type="submit">Submit</button><br><br>
+</form>
+<br><br>
+<div>
+<footer id="footer">Copyright@Akinduyo survey form</footer>
+</div>
+</body>
+</html>

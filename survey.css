@@ -1,0 +1,43 @@
+
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  #title {
+  background: Green;
+  text-align: center;
+  }
+  #button {
+  background: light gray;
+  color: black;
+  }
+  
+  #footer {
+    background: Green;
+    text-align: center;
+  }
+  .grace {
+    text-align: center;
+    background: green;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 60px 0px 50px;
+    animation-name: hat;
+    animation-duration: 4s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes hat {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    80% {
+  background-color:orange;
+    }
+  }
+  option {
+    color: white;
+  }
